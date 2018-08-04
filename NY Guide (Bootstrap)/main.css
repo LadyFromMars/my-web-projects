@@ -1,0 +1,154 @@
+.nav  {
+
+    background-color: #222222;
+}
+
+
+
+
+.nav  a:hover {
+    background-color: #111111;
+}
+
+
+body {
+background: linear-gradient(110deg, #dee2e2 60%, #ffffff 60% );
+
+
+}
+
+footer {
+
+  margin: 35px 10px 10px 10px;
+}
+
+main {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+main p {
+  font-size: 25px;
+  font-style: normal;
+  font-family: sans-serif;
+  text-align: justify;
+  font-weight: 200;
+}
+
+h1, h2{
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+table {
+  font-size: 16px;
+  color: #1a1a1a;
+}
+
+p{
+  text-align: justify;
+}
+
+.footer-image {
+  float:left;
+  font-size: 20px;
+  ;
+
+}
+
+.footer-image a {
+
+  margin-right: 15px;
+}
+
+/* Park gallery */
+
+.park img{
+  width: 100%;
+  height: 270px;
+  padding: 20px;
+}
+
+.park{
+  border: 2px black;
+
+}
+
+.park p{
+  text-align: center;
+
+}
+
+.parksText {
+  text-align: center;
+  font-size: 18px;
+  margin: 20px;
+}
+
+/* Ski gallery */
+
+.ski img {
+  width:100%;
+}
+
+thead {
+  width:50%;
+}
+
+
+#tips  p{
+  font-size: 19px;
+}
+
+#tips h3 {
+  text-align: center;
+}
+
+#tips h4 {
+  font-size: 20px;
+}
+
+/* Hikes / scrollify  */
+
+
+  ul.nav-pills {
+      top: 90px;
+      position: fixed;
+      background-color: #dee2e2;
+      color: #1a1a1a;
+  }
+  div.col-sm-9 div {
+      height: 900px;
+      font-size: 20px;
+
+  }
+  #section1 {color: #1a1a1a; }
+  #section2 {color: #1a1a1a;}
+  #section3 {color: #1a1a1a; }
+
+
+  @media screen and (max-width: 810px) {
+    #section1, #section2, #section3  {
+        margin-left: 150px;
+    }
+  }
+
+  .hikeimg{
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .hikeBody {
+    margin-left: 25%;
+  }
+
+  .blue  {
+    color: #347ab7;
+  }
